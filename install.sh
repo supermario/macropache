@@ -1,3 +1,4 @@
+#!/bin/sh
 
 # Install Apache mod_macro
 sudo apt-get install libapache2-mod-macro
