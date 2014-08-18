@@ -4,6 +4,24 @@ Macropache is a simple set of default macros for Apache's mod_macro that makes d
 
 There is also a simple shell script that will set it all up for you.
 
+## What?
+
+Replace this:
+
+```
+<VirtualHost *:80>
+  ServerAdmin webmaster@localhost
+  DocumentRoot /var/www
+  ServerName mysite.com
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+```
+
+With this:
+
+`Use VirtualHost /path/to/webroot mysite.com`
+
 ## Macros
 
 These are the ones available by default, see macros.conf for full definitions.
