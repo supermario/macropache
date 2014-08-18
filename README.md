@@ -2,8 +2,6 @@
 
 Macropache is a simple set of default macros for Apache's mod_macro that makes defining virtual hosts spectacularly less terrible.
 
-There is also a simple shell script that will set it all up for you.
-
 ## What?
 
 Replace this:
@@ -21,6 +19,12 @@ Replace this:
 With this:
 
 `Use VirtualHost /path/to/webroot mysite.com`
+
+## Install
+
+See install.sh for a simple helper script.
+
+If using Apache 2.4, you'll want the apache2.4 branch macros.conf as some extra config is required.
 
 ## Macros
 
